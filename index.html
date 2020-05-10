@@ -1,15 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Help Me!</title>
     <link rel="stylesheet" href="Styles/main.css">
-    
+
 </head>
+
 <body>
-    <p>Here</p>
+    <div id="app">
+        <header class="container">
+            <h1>i quit</h1>
+            <p> <a href="#">i</a> quit nicotine, see how long it has been</p> 
+        </header>
+        <div class="container flex">
+            <div class="progress" fraction="seconds">
+                <div class="left">
+                </div>
+                <div class="right">
+                    <h2></h2>
+                    <h3>Seconds</h3>
+                </div>
+            </div>
+            <div class="progress" fraction="minutes">
+                <div class="left">
+                </div>
+                <div class="right">
+                    <h2></h2>
+                    <h3>Minutes</h3>
+                </div>
+            </div>
+            <div class="progress" fraction="hours">
+                <div class="left">
+                </div>
+                <div class="right">
+                    <h2></h2>
+                    <h3>Hours</h3>
+                </div>
+            </div>
+            <div class="progress" fraction="days">
+                <div class="left">
+                </div>
+                <div class="right">
+                    <h2></h2>
+                    <h3>Days</h3>
+                </div>
+            </div>
+        </div>
+        <div class="container flex">
+            <div class="progress" fraction="weeks">
+                <div class="left">
+                </div>
+                <div class="right">
+                    <h2></h2>
+                    <h3>Weeks</h3>
+                </div>
+            </div>
+            <div class="progress" fraction="months">
+                <div class="left">
+                </div>
+                <div class="right">
+                    <h2></h2>
+                    <h3>Months</h3>
+                </div>
+            </div>
+            <div class="progress" fraction="years">
+                <div class="left">
+                </div>
+                <div class="right">
+                    <h2></h2>
+                    <h3>Years</h3>
+                </div>
+            </div>
+            <div class="progress dark">
+                <div class="right">
+                    <h2>
+                        $
+                        <span id="dollars"></span>
+                    <small>
+                        .
+                        <span id="cents"></span>
+                    </small>
+                    </h2>
+                    <h3>Saved</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="Scripts/main.js"></script>
 </body>
+
 </html>
